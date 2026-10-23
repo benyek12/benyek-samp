@@ -25,7 +25,7 @@ Benyek SAMP hanya client, file game kamu pasang sendiri secara manual. Tidak per
    - salin file ke `Android/data/id.benyekstore.sampclient/files/impor/` lewat file manager/PC, lalu tekan **Pindai folder impor**.
 3. Tunggu sampai muncul *File game lengkap*.
 
-APK yang bukan GTA San Andreas (misalnya APK launcher SA-MP lain) akan ditolak.
+APK launcher SA-MP lain juga bisa dipakai: Benyek SAMP hanya mengambil engine GTA SA-nya, library launcher itu (misalnya `libsamp.so`) tidak ikut dipasang.
 
 ## Status
 
