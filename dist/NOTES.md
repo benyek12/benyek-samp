@@ -1,4 +1,8 @@
-**Yang baru di 0.8.2**
+**Yang baru di 0.8.3**
+
+- Perbaikan sentuhan: layar game sekarang menerima sentuhan (sebelumnya menu tidak bisa ditekan).
+
+**Dari 0.8.2**
 
 - Game langsung berjalan setelah dibuka (sebelumnya diam sampai di-pause/resume).
 - Tombol Back diteruskan ke game (menu pause), tidak lagi menutup game.
