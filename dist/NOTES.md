@@ -1,4 +1,8 @@
-**Yang baru di 0.8.0 — M1 percobaan pertama**
+**Yang baru di 0.8.1**
+
+- Perbaikan crash saat membuka game (engine gagal mendaftarkan fungsi gamepad).
+
+**Dari 0.8.0 — M1 percobaan pertama**
 
 - **Tombol Main membuka GTA San Andreas** (singleplayer) dari file game milikmu: engine, base.apk, dan data di folder `gta/`. Belum terhubung ke server.
 - Game berjalan di proses terpisah, jadi kalau engine crash, launcher tetap terbuka.
