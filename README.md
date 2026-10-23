@@ -10,10 +10,22 @@ Ambil APK terbaru di halaman **[Releases](../../releases)**.
 
 - Izin Android **hanya internet**: tidak ada akses kontak, SMS, mikrofon, lokasi, overlay, atau hapus aplikasi.
 - Tanpa iklan dan tanpa pelacakan.
-- **Tidak membawa file game.** Pasang GTA San Andreas resmi dari Play Store.
+- **Tidak membawa file game.** Pakai file GTA San Andreas milikmu sendiri (lihat di bawah).
 - Setiap rilis disertai `SHA256.txt`. Cocokkan hash file yang kamu unduh supaya yakin itu APK asli, bukan versi palsu dari pihak lain.
 
 Unduh hanya dari halaman ini. APK Benyek SAMP dari sumber lain bukan rilis resmi.
+
+## Memasang file GTA San Andreas
+
+Benyek SAMP hanya client, file game kamu pasang sendiri secara manual. Tidak perlu aplikasi GTA SA terpasang.
+
+1. Siapkan file GTA SA milikmu: `base.apk`, `split_config.arm64_v8a.apk`, dan file `.obb` (atau ZIP berisi `anim/ audio/ data/ models/ texdb/ text/`).
+2. Buka tab **Modpack** di Benyek SAMP, lalu salah satu:
+   - **Pilih file game** → pilih semua file sekaligus, atau
+   - salin file ke `Android/data/id.benyekstore.sampclient/files/impor/` lewat file manager/PC, lalu tekan **Pindai folder impor**.
+3. Tunggu sampai muncul *File game lengkap*.
+
+APK yang bukan GTA San Andreas (misalnya APK launcher SA-MP lain) akan ditolak.
 
 ## Status
 
@@ -23,7 +35,7 @@ Unduh hanya dari halaman ini. APK Benyek SAMP dari sumber lain bukan rilis resmi
 | Unduh konten server otomatis (cek SHA-256) | ✅ |
 | Favorites / Official, tambah & hapus server | ✅ |
 | Nickname & settings | ✅ |
-| Deteksi GTA SA resmi | ✅ |
+| Pasang file GTA SA manual (base.apk + split_config + .obb) | ✅ |
 | Masuk ke server (core client) | 🚧 dalam pengembangan |
 
 ---
