@@ -1,1 +1,1 @@
-abd09c3bc14ac562a37608cb92eef47907f0f96dc9a8d37f9bb20b5b44b68bab  BenyekSAMP-0.1.0.apk
+5052d012f3fd672ad176d11b40f7cbb69cb41ff11557aa87ae75f4062085ebdc  BenyekSAMP-0.2.0.apk

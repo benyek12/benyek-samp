@@ -20,6 +20,7 @@ Unduh hanya dari halaman ini. APK Benyek SAMP dari sumber lain bukan rilis resmi
 | Fitur | Status |
 |-------|--------|
 | Server list, info live (pemain, mode, ping) | ✅ |
+| Unduh konten server otomatis (cek SHA-256) | ✅ |
 | Favorites / Official, tambah & hapus server | ✅ |
 | Nickname & settings | ✅ |
 | Deteksi GTA SA resmi | ✅ |
