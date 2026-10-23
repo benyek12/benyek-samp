@@ -1,14 +1,14 @@
-**Yang baru di 0.5.0**
+**Yang baru di 0.6.0**
 
-- **Core client pertama (M0):** `libbenyekcore.so` sekarang ikut di APK. Pesan "Core client belum tersedia" sudah hilang.
-- Tombol **Tes engine** di tab Modpack: menguji apakah engine GTA SA milikmu (`libGTASA.so`) bisa dimuat core.
-- Engine otomatis diambil dari GTA SA resmi kalau aplikasinya terpasang, tanpa perlu impor manual.
-- Tombol Main sekarang menampilkan status core yang jelas (engine belum ada, gagal dimuat, atau siap).
+- **Tanda tangan tetap.** Mulai versi ini, update berikutnya bisa langsung dipasang menimpa versi lama. File game dan modpack di `Android/data` tidak hilang.
+- **Engine hanya dari GTA San Andreas resmi.** Impor APK dicek nama paketnya (`com.rockstargames.gtasa`). APK dari launcher lain ditolak.
+- Kalau GTA San Andreas dari Play Store terpasang, engine diambil otomatis.
+- Core hanya memuat library GTA SA yang dikenal.
 
-**Belum bisa:** masuk ke server. Langkah berikutnya adalah M1, yaitu membuka GTA SA dari tombol Main.
+**Pasang versi ini:** uninstall versi lama dulu (terakhir kali), lalu pasang 0.6.0. Setelah itu impor ulang data game lewat tab Modpack.
+
+**Belum bisa:** masuk ke server. Berikutnya milestone M1 (membuka GTA SA dari tombol Main).
 
 Benyek SAMP tidak menyediakan file game GTA San Andreas. Pakai file milikmu sendiri.
-Kalau versi lama tidak bisa ditimpa, uninstall dulu lalu pasang 0.5.0.
-
 Izin aplikasi: hanya internet. Android 8.0 ke atas.
 Cocokkan hash file dengan `SHA256.txt`.
