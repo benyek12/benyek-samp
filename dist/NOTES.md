@@ -1,11 +1,11 @@
-**Yang baru di 0.6.0**
+**Yang baru di 0.7.0**
 
-- **Tanda tangan tetap.** Mulai versi ini, update berikutnya bisa langsung dipasang menimpa versi lama. File game dan modpack di `Android/data` tidak hilang.
-- **Engine hanya dari GTA San Andreas resmi.** Impor APK dicek nama paketnya (`com.rockstargames.gtasa`). APK dari launcher lain ditolak.
-- Kalau GTA San Andreas dari Play Store terpasang, engine diambil otomatis.
-- Core hanya memuat library GTA SA yang dikenal.
+- **Pasang file GTA SA manual.** `base.apk` dan `split_config.arm64_v8a.apk` (plus `.obb` / ZIP data game) bisa dipilih sekaligus lewat tombol **Pilih file game** di tab Modpack.
+- **Folder impor.** Salin file ke `Android/data/id.benyekstore.sampclient/files/impor/`, lalu tekan **Pindai folder impor**. File yang berhasil dipasang dipindah/dihapus dari folder itu, yang gagal dibiarkan.
+- Status engine dan base.apk tampil di kartu File GTA San Andreas, plus ringkasan hasil per file.
+- Tidak perlu aplikasi GTA San Andreas terpasang.
 
-**Pasang versi ini:** uninstall versi lama dulu (terakhir kali), lalu pasang 0.6.0. Setelah itu impor ulang data game lewat tab Modpack.
+**Update dari 0.6.0:** langsung pasang menimpa, file game dan modpack tidak hilang.
 
 **Belum bisa:** masuk ke server. Berikutnya milestone M1 (membuka GTA SA dari tombol Main).
 
