@@ -1,4 +1,8 @@
-**Yang baru di 0.7.1**
+**Yang baru di 0.7.2**
+
+- **base.apk dari launcher lain diterima** (misalnya SAMP Unity), asalkan berisi kode Java GTA SA. Status "base.apk" di tab Modpack akan jadi "ada".
+
+**Dari 0.7.1**
 
 - **APK launcher SA-MP lain diterima.** Dari APK seperti itu hanya engine GTA SA (libGTASA dkk.) yang diambil; `libsamp.so` dan library launcher lain tidak dipasang.
 
@@ -9,7 +13,7 @@
 - Status engine dan base.apk tampil di kartu File GTA San Andreas, plus ringkasan hasil per file.
 - Tidak perlu aplikasi GTA San Andreas terpasang.
 
-**Update dari 0.6.0 / 0.7.0:** langsung pasang menimpa, file game dan modpack tidak hilang.
+**Update dari 0.6.0 / 0.7.x:** langsung pasang menimpa, file game dan modpack tidak hilang.
 
 **Belum bisa:** masuk ke server. Berikutnya milestone M1 (membuka GTA SA dari tombol Main).
 
