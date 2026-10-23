@@ -1,4 +1,9 @@
-**Yang baru di 0.8.1**
+**Yang baru di 0.8.2**
+
+- Game langsung berjalan setelah dibuka (sebelumnya diam sampai di-pause/resume).
+- Tombol Back diteruskan ke game (menu pause), tidak lagi menutup game.
+
+**Dari 0.8.1**
 
 - Perbaikan crash saat membuka game (engine gagal mendaftarkan fungsi gamepad).
 
