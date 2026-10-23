@@ -2,7 +2,9 @@ name: Terbitkan Release
 
 on:
   push:
-    tags: ["v*"]
+    branches: [main]
+    paths: ["dist/**"]
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -20,8 +22,16 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create "${GITHUB_REF_NAME}" \
-            --title "Benyek SAMP ${GITHUB_REF_NAME#v} (uji coba)" \
-            --prerelease \
-            --notes-file dist/NOTES.md \
-            dist/*.apk dist/SHA256.txt
+          VERSION="$(tr -d '[:space:]' < dist/VERSION)"
+          TAG="v${VERSION}"
+          if gh release view "$TAG" > /dev/null 2>&1; then
+            echo "Release $TAG sudah ada, file diperbarui"
+            gh release upload "$TAG" dist/*.apk dist/SHA256.txt --clobber
+          else
+            gh release create "$TAG" \
+              --target "$GITHUB_SHA" \
+              --title "Benyek SAMP ${VERSION} (uji coba)" \
+              --prerelease \
+              --notes-file dist/NOTES.md \
+              dist/*.apk dist/SHA256.txt
+          fi
