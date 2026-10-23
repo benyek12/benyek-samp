@@ -36,6 +36,7 @@ APK launcher SA-MP lain juga bisa dipakai: Benyek SAMP hanya mengambil engine GT
 | Favorites / Official, tambah & hapus server | ✅ |
 | Nickname & settings | ✅ |
 | Pasang file GTA SA manual (base.apk + split_config + .obb) | ✅ |
+| Buka GTA SA dari tombol Main (M1) | 🧪 uji coba |
 | Masuk ke server (core client) | 🚧 dalam pengembangan |
 
 ---

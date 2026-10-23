@@ -1,4 +1,10 @@
-**Yang baru di 0.7.2**
+**Yang baru di 0.8.0 — M1 percobaan pertama**
+
+- **Tombol Main membuka GTA San Andreas** (singleplayer) dari file game milikmu: engine, base.apk, dan data di folder `gta/`. Belum terhubung ke server.
+- Game berjalan di proses terpisah, jadi kalau engine crash, launcher tetap terbuka.
+- **Kirim log game** (tab Modpack): kalau game crash atau layar hitam, tekan tombol ini dan kirim lognya untuk diperbaiki.
+
+**Dari 0.7.2**
 
 - **base.apk dari launcher lain diterima** (misalnya SAMP Unity), asalkan berisi kode Java GTA SA. Status "base.apk" di tab Modpack akan jadi "ada".
 
@@ -15,7 +21,7 @@
 
 **Update dari 0.6.0 / 0.7.x:** langsung pasang menimpa, file game dan modpack tidak hilang.
 
-**Belum bisa:** masuk ke server. Berikutnya milestone M1 (membuka GTA SA dari tombol Main).
+**Belum bisa:** masuk ke server. M1 masih uji coba; berikutnya M2 (overlay di dalam game) dan M3 (koneksi ke server).
 
 Benyek SAMP tidak menyediakan file game GTA San Andreas. Pakai file milikmu sendiri.
 Izin aplikasi: hanya internet. Android 8.0 ke atas.
