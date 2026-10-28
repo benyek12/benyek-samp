@@ -6,12 +6,13 @@ Website: https://comun.benyekroblox.my.id/samp-clrp
 
 ## Download
 
-Ambil APK terbaru di halaman **[Releases](../../releases)**.
+Ambil APK terbaru di folder **[dist](dist)** (file `SAMP-CLRP-<versi>.apk`) atau di website https://comun.benyekroblox.my.id/samp-clrp.
+Versi lama ada di halaman **[Releases](../../releases)**.
 
 ## Kenapa aman
 
 - Izin Android hanya yang dipakai: **internet**, **mikrofon** (voice chat in-game, bisa ditolak) dan **pasang aplikasi** (khusus untuk memasang update SAMP CLRP sendiri). Tidak ada akses kontak, SMS, lokasi, atau overlay.
-- Update otomatis: setiap dibuka, aplikasi mengecek versi terbaru di website Benyek Store. APK update diunduh dari halaman Releases ini dan dicek SHA-256-nya sebelum dipasang.
+- Update otomatis: setiap dibuka, aplikasi mengecek versi terbaru di website Benyek Store. APK update diunduh dari repo ini (folder `dist`) dan dicek SHA-256-nya sebelum dipasang.
 - Tanpa iklan dan tanpa pelacakan.
 - **Tidak membawa file game.** Pakai file GTA San Andreas milikmu sendiri (lihat di bawah).
 - Setiap rilis disertai `SHA256.txt`. Cocokkan hash file yang kamu unduh supaya yakin itu APK asli, bukan versi palsu dari pihak lain.
