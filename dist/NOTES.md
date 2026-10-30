@@ -1,3 +1,3 @@
-# SAMP CLRP 0.22.12
+# SAMP CLRP 0.22.13
 
-Perbaikan game langsung keluar setelah tersambung ke server.
+Sentuhan sampai 4 jari: lari sambil tukar senjata, pukul, atau tombol lain.
