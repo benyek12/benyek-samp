@@ -1,3 +1,3 @@
-# SAMP CLRP 0.22.9
+# SAMP CLRP 0.22.11
 
-Perbaikan crash saat game dibuka setelah memasang engine dari Benyek Store.
+Folder lib/ dari ZIP data game tidak ikut dipasang lagi, dan penyebab layar game tertutup dicatat di log.
