@@ -1,13 +1,11 @@
-SAMP CLRP 0.22.0 — dibuat oleh Benyek Store
+SAMP CLRP 0.22.6 — dibuat oleh Benyek Store
 
 Yang baru:
-- Update otomatis: aplikasi mengecek versi terbaru di website Benyek Store setiap dibuka
-- Paket file resmi dari Benyek Store bisa diunduh & dipasang langsung dari aplikasi
-- Sentuh sampai 4 jari (jalan, putar kamera, ngeker, nembak bersamaan)
-- Tombol kekeran GTA bisa ditekan (tidak lagi bertumpuk dengan tombol serang)
-- Tidak menembak sendiri saat bidikan menempel di badan orang
-- Animasi kena pukul pada pemain lain
-- Perbaikan crash saat masuk server dengan banyak kendaraan
-- Pratinjau inventori, tombol mic tidak menutupi menu server
+- Tombol lompat tidak muncul lagi saat naik kendaraan
+- Lompat 2 kali tidak langsung dijatuhkan server (satu tekan = satu lompat)
+- Mesin kendaraan mati sampai dinyalakan server (/engine), damage satu tim diatur server
+- Gaya & kecepatan lari sesuai skin (bukan gerak CJ)
+- Sentuh 4 jari lebih lancar: joystick tidak macet saat menahan tombol, ganti senjata sambil lari
+- Grafik & ikon dari modpack/server (folder texdb) ikut dimuat
 
 Cocokkan SHA-256 file dengan SHA256.txt.
