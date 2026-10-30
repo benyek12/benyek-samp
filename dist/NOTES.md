@@ -1,3 +1,3 @@
-# SAMP CLRP 0.22.7
+# SAMP CLRP 0.22.8
 
-Paket file resmi sekarang dipasang langsung ke folder gta/, pemasangan lama dipindahkan otomatis.
+Engine GTA SA sekarang bisa diunduh dari Benyek Store di tab Mod.
