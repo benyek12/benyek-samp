@@ -1,3 +1,3 @@
-# SAMP CLRP 0.22.11
+# SAMP CLRP 0.22.12
 
-Folder lib/ dari ZIP data game tidak ikut dipasang lagi, dan penyebab layar game tertutup dicatat di log.
+Perbaikan game langsung keluar setelah tersambung ke server.
