@@ -1,3 +1,3 @@
-# SAMP CLRP 0.22.8
+# SAMP CLRP 0.22.9
 
-Engine GTA SA sekarang bisa diunduh dari Benyek Store di tab Mod.
+Perbaikan crash saat game dibuka setelah memasang engine dari Benyek Store.
