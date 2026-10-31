@@ -1,3 +1,3 @@
-# SAMP CLRP 0.22.32
+# SAMP CLRP 0.22.33
 
-Script Lua: ±1500 fungsi game MoonLoader (opcode) dan gambar/tulisan di layar (render*), script jalan selangkah dengan game seperti MonetLoader.
+Script CLEO Android (.csa/.csi/.fxt) sekarang jalan: .csa otomatis, .csi lewat menu CLEO (geser layar dari tengah atas ke bawah atau /cleo). Script Lua: dialog sampShowDialog dan fungsi kirim SA-MP tambahan.
