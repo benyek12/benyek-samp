@@ -1,3 +1,3 @@
-# SAMP CLRP 0.22.25
+# SAMP CLRP 0.22.26
 
-Kamera spectate bisa diputar dengan geser layar.
+Script Lua: library encoding & jsoncfg bawaan, pesan jelas kalau library kurang. Log objek mapping untuk lacak objek hilang.
