@@ -1,3 +1,3 @@
-# SAMP CLRP 0.22.27
+# SAMP CLRP 0.22.28
 
-Perbaikan objek mapping putih/hitam: tekstur objek dicari juga di database tekstur SA-MP. Material objek memakai tekstur dari model yang benar.
+Script Lua: menu mimgui (ImGui) didukung, seperti MonetLoader. Ketuk untuk klik, geser untuk menggulir, keyboard HP untuk kolom teks.
