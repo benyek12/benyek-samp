@@ -1,3 +1,3 @@
-# SAMP CLRP 0.22.24
+# SAMP CLRP 0.22.25
 
-Kendaraan pemain lain ikut rusak, terbakar, dan meledak seperti di PC (darah kendaraan dari sinkron).
+Kamera spectate bisa diputar dengan geser layar.
