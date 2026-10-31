@@ -1,3 +1,3 @@
-# SAMP CLRP 0.22.29
+# SAMP CLRP 0.22.30
 
-Script Lua: library notifications bawaan, jadi Commands_Helper dan script menu lain tidak berhenti saat dimuat.
+Script Lua: semua tab menu Commands_Helper jalan (data pemain, salin teks ke clipboard, buka link, notifikasi).
