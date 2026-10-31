@@ -1,3 +1,3 @@
-# SAMP CLRP 0.22.17
+# SAMP CLRP 0.22.18
 
-Script MonetLoader (Lua) dan CLEO bisa dipasang & dihapus dari tab Mod. Script Lua berjalan (HP 64-bit).
+Perbaikan sentuhan 4 jari (kamera & joystick) dan gerak lari sesuai skin.
