@@ -1,3 +1,3 @@
-# SAMP CLRP 0.22.13
+# SAMP CLRP 0.22.17
 
-Sentuhan sampai 4 jari: lari sambil tukar senjata, pukul, atau tombol lain.
+Script MonetLoader (Lua) dan CLEO bisa dipasang & dihapus dari tab Mod. Script Lua berjalan (HP 64-bit).
