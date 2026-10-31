@@ -1,3 +1,3 @@
-# SAMP CLRP 0.22.31
+# SAMP CLRP 0.22.32
 
-Script Lua: samp.events lengkap (semua event SA-MP) dan fungsi raknet seperti MonetLoader/SAMPFUNCS.
+Script Lua: ±1500 fungsi game MoonLoader (opcode) dan gambar/tulisan di layar (render*), script jalan selangkah dengan game seperti MonetLoader.
