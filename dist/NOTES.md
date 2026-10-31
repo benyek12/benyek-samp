@@ -1,3 +1,3 @@
-# SAMP CLRP 0.22.26
+# SAMP CLRP 0.22.27
 
-Script Lua: library encoding & jsoncfg bawaan, pesan jelas kalau library kurang. Log objek mapping untuk lacak objek hilang.
+Perbaikan objek mapping putih/hitam: tekstur objek dicari juga di database tekstur SA-MP. Material objek memakai tekstur dari model yang benar.
