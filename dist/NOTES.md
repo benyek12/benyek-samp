@@ -1,3 +1,3 @@
-# SAMP CLRP 0.22.28
+# SAMP CLRP 0.22.29
 
-Script Lua: menu mimgui (ImGui) didukung, seperti MonetLoader. Ketuk untuk klik, geser untuk menggulir, keyboard HP untuk kolom teks.
+Script Lua: library notifications bawaan, jadi Commands_Helper dan script menu lain tidak berhenti saat dimuat.
