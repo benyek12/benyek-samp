@@ -1,3 +1,3 @@
-# SAMP CLRP 0.22.18
+# SAMP CLRP 0.22.20
 
-Perbaikan sentuhan 4 jari (kamera & joystick) dan gerak lari sesuai skin.
+Pintu di mapping server bisa didorong, lari cepat tidak dibatasi stamina GTA (server yang mengatur).
