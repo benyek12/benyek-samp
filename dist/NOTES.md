@@ -1,3 +1,3 @@
-# SAMP CLRP 0.22.21
+# SAMP CLRP 0.22.23
 
-Objek mapping server sampai 1000 (mapping besar tidak bolong, tidak jatuh), objek terdekat dimuat dulu.
+Plat/label 3D di kendaraan dan nama pemain tidak bergetar lagi; bunyi dari server dicatat di log.
