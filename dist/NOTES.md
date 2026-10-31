@@ -1,3 +1,3 @@
-# SAMP CLRP 0.22.20
+# SAMP CLRP 0.22.21
 
-Pintu di mapping server bisa didorong, lari cepat tidak dibatasi stamina GTA (server yang mengatur).
+Objek mapping server sampai 1000 (mapping besar tidak bolong, tidak jatuh), objek terdekat dimuat dulu.
