@@ -1,3 +1,3 @@
-# SAMP CLRP 0.22.30
+# SAMP CLRP 0.22.31
 
-Script Lua: semua tab menu Commands_Helper jalan (data pemain, salin teks ke clipboard, buka link, notifikasi).
+Script Lua: samp.events lengkap (semua event SA-MP) dan fungsi raknet seperti MonetLoader/SAMPFUNCS.
