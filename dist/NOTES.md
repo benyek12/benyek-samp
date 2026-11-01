@@ -1,3 +1,3 @@
-# SAMP CLRP 0.22.35
+# SAMP CLRP 0.22.36
 
-HP 32-bit (armeabi-v7a) sekarang didukung penuh: masuk server, script SA-MP, pool objek/model diperbesar, ped pemain lain, Lua (LuaJIT) dan CLEO. Engine 32-bit diambil dari Paket SAMP CLRP.
+Pukulan diarahkan ke pemain lain terdekat (tidak lagi lewat di samping), jadi pemain yang dipukul benar-benar kena dan bereaksi. Sudah termasuk dukungan HP 32-bit dari 0.22.35.
