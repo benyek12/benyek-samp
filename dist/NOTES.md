@@ -1,3 +1,3 @@
-# SAMP CLRP 0.22.37
+# SAMP CLRP 0.22.38
 
-Pemain lain yang kita pukul sekarang terlihat kena (tersentak/jatuh), tidak lagi hilang lalu muncul ulang. Pukulan diarahkan ke pemain terdekat. Sudah termasuk dukungan HP 32-bit.
+Panel admin (Invisible, Airbreak, Nametag) untuk admin terdaftar; isi Kode admin di Pengaturan. Termasuk perbaikan reaksi kena pukul dan dukungan HP 32-bit.
