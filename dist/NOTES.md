@@ -1,3 +1,3 @@
-# SAMP CLRP 0.22.38
+# SAMP CLRP 0.22.39
 
-Panel admin (Invisible, Airbreak, Nametag) untuk admin terdaftar; isi Kode admin di Pengaturan. Termasuk perbaikan reaksi kena pukul dan dukungan HP 32-bit.
+Panel admin: Invisible sekarang sama seperti panel CLRP PC (sinkron penonton). Termasuk Airbreak, Nametag, perbaikan reaksi kena pukul dan HP 32-bit.
