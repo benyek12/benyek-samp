@@ -1,3 +1,3 @@
-# SAMP CLRP 0.22.34
+# SAMP CLRP 0.22.35
 
-Layar Mod: keterangan jelas di Unduh dari Benyek Store (sudah terpasang / HP 32-bit). Sudah termasuk CLEO Android dan API dialog Lua dari 0.22.33.
+HP 32-bit (armeabi-v7a) sekarang didukung penuh: masuk server, script SA-MP, pool objek/model diperbesar, ped pemain lain, Lua (LuaJIT) dan CLEO. Engine 32-bit diambil dari Paket SAMP CLRP.
