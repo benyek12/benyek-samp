@@ -1,3 +1,3 @@
-# SAMP CLRP 0.22.36
+# SAMP CLRP 0.22.37
 
-Pukulan diarahkan ke pemain lain terdekat (tidak lagi lewat di samping), jadi pemain yang dipukul benar-benar kena dan bereaksi. Sudah termasuk dukungan HP 32-bit dari 0.22.35.
+Pemain lain yang kita pukul sekarang terlihat kena (tersentak/jatuh), tidak lagi hilang lalu muncul ulang. Pukulan diarahkan ke pemain terdekat. Sudah termasuk dukungan HP 32-bit.
