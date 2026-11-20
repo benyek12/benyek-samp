@@ -1,0 +1,61 @@
+name: Terbitkan modpack katalog
+
+# File modpack terlalu besar untuk git biasa: diunggah sebagai potongan (< 95 MB) ke branch
+# sementara, workflow ini menyatukannya, mencocokkan SHA-256, lalu menerbitkannya sebagai aset
+# Release di repo publik benyek12/benyek-samp (memakai token workflow repo ini).
+# Branch sementara dihapus setelah selesai.
+
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: "Branch berisi folder upload/ (potongan + SHA256SUMS)"
+        required: true
+      tag:
+        description: "Tag release di benyek12/benyek-samp, mis. modpack-v1"
+        required: true
+      title:
+        description: "Judul release"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.branch }}
+          lfs: false
+      - name: Satukan potongan & cek SHA-256
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/out
+          cd upload
+          for name in $(ls *.part-* | sed 's/\.part-[0-9]*$//' | sort -u); do
+            cat $(ls "$name".part-* | sort -V) > "/tmp/out/$name"
+          done
+          cd /tmp/out
+          cp "$GITHUB_WORKSPACE/upload/SHA256SUMS" .
+          sha256sum -c SHA256SUMS
+          ls -la
+      - name: Terbitkan release
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          cd /tmp/out
+          if gh release view "${{ inputs.tag }}" -R benyek12/benyek-samp >/dev/null 2>&1; then
+            gh release upload "${{ inputs.tag }}" -R benyek12/benyek-samp --clobber *.zip
+          else
+            gh release create "${{ inputs.tag }}" -R benyek12/benyek-samp --title "${{ inputs.title }}" \
+              --notes "Modpack pilihan untuk katalog tab Mod SAMP CLRP." *.zip
+          fi
+          gh release view "${{ inputs.tag }}" -R benyek12/benyek-samp --json assets -q '.assets[]|[.name,.size]|@tsv'
+      - name: Hapus branch sementara
+        if: always()
+        run: git push origin --delete "${{ inputs.branch }}" || true
