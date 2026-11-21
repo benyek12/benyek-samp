@@ -1,4 +1,4 @@
-# SAMP CLRP 0.30.5
+# SAMP CLRP 0.30.6
 
-- Armor dari server (SetPlayerArmour, mis. /ganja) dipasang persis seperti client PC, tidak lagi bisa melebihi nilai yang diberi server (sebelumnya bisa dianggap "spawn armour" oleh anti-cheat).
-- Termasuk 0.30.4: perbaikan suara kendaraan nyangkut.
+- Kamera sinematik tidak lagi menghentikan pose/animasi dari server (/anim tetap jalan saat difoto atau direkam).
+- Termasuk 0.30.5: armor dari server seperti client PC.
