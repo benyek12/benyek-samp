@@ -1,5 +1,4 @@
-# SAMP CLRP 0.30.2
+# SAMP CLRP 0.30.3
 
-- Perbaikan crash saat mengisi PIN / kata sandi di dialog server.
-- Hemat baterai hanya menurunkan FPS saat menu game terbuka (tidak lagi saat dialog).
-- Log game mencatat isi database tekstur untuk diagnosa.
+- Modpack: tekstur yang formatnya tidak dibaca HP (beserta gta3.img pasangannya) otomatis dilewati, jadi tidak ada lagi pohon/objek putih. Cuaca, suara, efek & animasi modpack tetap terpasang.
+- Termasuk perbaikan 0.30.2: crash saat mengisi PIN / kata sandi.
