@@ -1,4 +1,4 @@
-# SAMP CLRP 0.30.3
+# SAMP CLRP 0.30.4
 
-- Modpack: tekstur yang formatnya tidak dibaca HP (beserta gta3.img pasangannya) otomatis dilewati, jadi tidak ada lagi pohon/objek putih. Cuaca, suara, efek & animasi modpack tetap terpasang.
-- Termasuk perbaikan 0.30.2: crash saat mengisi PIN / kata sandi.
+- Perbaikan suara kendaraan nyangkut/tersendat: mobil yang disetir pemain lain tidak lagi memakai jalur suara mesin "mobil pemain" (yang hanya satu), jadi tidak berebut dengan mobil sendiri dan tidak tertinggal setelah mobilnya hilang.
+- Termasuk 0.30.3: modpack tanpa pohon putih; 0.30.2: perbaikan crash saat mengisi PIN.
