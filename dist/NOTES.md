@@ -1,5 +1,4 @@
-# SAMP CLRP 0.31.0
+# SAMP CLRP 0.31.1
 
-- Keamanan: aplikasi memeriksa keasliannya saat dibuka. APK bajakan/hasil repack tidak bisa dijalankan.
-- Keamanan: koneksi ke server SAMP CLRP (update, laporan, data) selalu lewat HTTPS.
-- Tidak ada perubahan fitur; audio/boombox server lain tetap jalan seperti biasa.
+- Perbaikan crash saat masuk game memakai modpack dengan efek partikel besar (mis. Gangster V2): memori efek diperbesar 512 KB -> 8 MB.
+- Termasuk 0.31.0: pemeriksaan keaslian aplikasi dan koneksi HTTPS ke server SAMP CLRP.
